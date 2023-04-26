@@ -20,7 +20,28 @@ const newspaper=[
         name: 'The Indian Express',
         address: 'https://indianexpress.com/',
         base: 'https://indianexpress.com/section/climate-change/'
+    },
+    {
+        name: 'The Guardian',
+        address: 'https://www.theguardian.com/international',
+        base:''
+    },
+    {
+        name: 'The New York Times',
+        address: 'https://www.nytimes.com/section/world',
+        base:''
+    },
+    {
+        name: 'The Washington Post',
+        address: 'https://www.washingtonpost.com/world/',
+        base:''
+    },
+    {
+        name: 'The Wall Street Journal',
+        address: 'https://www.wsj.com/news/world',
+        base:''
     }
+    
 ]
 
 newspaper.forEach(newspaper => {
